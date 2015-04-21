@@ -28,8 +28,8 @@
 
 			if(new_task != '') {
 				$.post('includes/add-task.php', { tasks: new_task}, function(data){
-					$(('add-new-task input[name=new-task]').val();
-						$(data).appendTo('task-list ul').hide().fadeIn();)
+					$('add-new-task input[name=new-task]').val();
+						$(data).appendTo('task-list ul').hide().fadeIn();
 				});
 			}
 			return false;
