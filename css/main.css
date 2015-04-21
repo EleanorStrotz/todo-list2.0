@@ -1,0 +1,4 @@
+/*connects main.css to reset.css*/
+@import "reset.css";
+/*connects normailze.css to main.css*/
+@import "normalize.css";
