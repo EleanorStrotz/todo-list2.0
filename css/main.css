@@ -8,7 +8,11 @@
 body{
 	font: normal 14px "Open Sans", Arial, sans-serif;
 	color: #999;
-	background: #f1f1f1;
+	/*background: #f1f1f1;*/
+	background-image: url("https://download.unsplash.com/photo-1426200830301-372615e4ac54");
+	background-attachment: fixed;
+    background-position: center; 
+
 }
 
 .wrap{
@@ -22,3 +26,9 @@ body{
 	box-shadow: 2px 2px 0px #ddd;
 	margin-top: 40px;
 	padding: 22px 6%;
+}
+/*index.php{
+	background-image: url("https://download.unsplash.com/photo-1425136738262-212551713a58");
+	background-attachment: fixed;
+    background-position: center; 
+}*/
