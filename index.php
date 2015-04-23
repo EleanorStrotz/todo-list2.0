@@ -17,7 +17,7 @@
 				if($numrows>0){
 					while($row = $result->fetch_assoc()){
 						$task_id = $row['id'];
-						$task_name = $row["task"];
+						$task_name = $row['task'];
 
 					echo '<li>
 					<span>'.$task_name.'</span>
@@ -47,7 +47,7 @@
 			if(new_task != '') {
 				$.post('includes/add-task.php', { tasks: new_task}, function(data){
 					$('add-new-task input[name=new-task]').val();
-						$(data).appendTo('task-list ul').hide().fadeIn();
+						$(data).appendTo('.task-list ul').hide().fadeIn();
 				});
 			}
 			return false;
@@ -56,7 +56,7 @@
 //calls the delete button from delete in the includes folder
 	$('.delete-button').click(function(){
 		var current_element = $(this);
-		var task_id = $(this).attr['id'];
+		var task_id = $(this).attr('id');
 
 		$.post('includes/delete-task.php', {id: task_id}, function(){
 		current_element.parent().fadeOut("fast", function(){
