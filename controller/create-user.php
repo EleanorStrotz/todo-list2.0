@@ -23,7 +23,7 @@
 		. "salt = '$salt'");
 	// if statement checks if the query function was successful or not
 	if ($query) {
-		echo "Successfully created user: $username";
+		// echo "Successfully created user: $username";
 	}
 	//else statement echos if the query wasnt successful
 	else {
