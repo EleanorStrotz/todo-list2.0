@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body{
+	font: normal 14px 'Open Sans', Arial, sans-serif;
+	color: #999;
+	background-image: url("https://download.unsplash.com/photo-1428908799722-0a74e26ce7f6");
+	/*background-size: 100%;*/
+	/*background-repeat: no-repeat;*/
+	background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+.container{
+	width: 900px;
+	height: 600px;
+	margin-top: 40px;
+	background: #f1f1f1;
+	text-align: center;
+	padding-top: 30px;
+	opacity: 0.4;
+}
+
+#login{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+#register{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}

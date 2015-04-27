@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body{
+	font: normal 14px 'Open Sans', Arial, sans-serif;
+	color: #999;
+	background-image: url("https://download.unsplash.com/photo-1429817995631-19962bb39ef6");
+	/*background-size: 100%;*/
+	/*background-repeat: no-repeat;*/
+}
+
+.container{
+	width: 900px;
+	height: 600px;
+	margin-top: 40px;
+	background: #f1f1f1;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#username{
+	padding-bottom: 20px;
+}
+
+#password{
+	padding-bottom: 20px;
+}
+
+#box1{
+	border: 1px solid black;
+}
+#box2{
+	border: 1px solid black;
+}
