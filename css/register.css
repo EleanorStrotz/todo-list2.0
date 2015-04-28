@@ -3,8 +3,8 @@
 body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
-	background-image: url("http://antennamag.com/files/2014/09/yung-lean.jpg?w=600&h=0&zc=1&s=0&a=t&q=89");
-	/*background-size: 100%;*/
+	background-image: url("http://31.media.tumblr.com/6b83fe020e95991eb953d03b17e43550/tumblr_nb24mkHOlC1rdns3so5_400.gif");
+	background-size: 100%;
 	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
     background-position: center; 
@@ -13,11 +13,13 @@ body{
 
 .container{
 	width: 900px;
-	height: 600px;
+	height: 500px;
 	margin-top: 40px;
 	background: #f1f1f1;
 	text-align: center;
 	padding-top: 30px;
+	opacity: 0.7;
+	margin-left: 200px;
 }
 
 #username{

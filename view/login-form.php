@@ -2,6 +2,7 @@
 //helps us reach certian files with minimal work
 	require_once(__DIR__ . "/../model/config.php");
 ?>
+<div class="container">
 <!-- h1 tag displays the header tag login on the webpage -->
 <h1>Login</h1>
 
@@ -24,3 +25,4 @@
 		<button type="submit" class="btn btn-success">Submit</button>
 	</div>
 </form>
+</div>

@@ -2,7 +2,7 @@
 //helps us reach certian files with minimal work
 	require_once(__DIR__ . "/../model/config.php");
 ?>
-
+<div class="container">
 <!-- Creates header for webpage -->
 <h1>Register</h1>
 <!-- method sends the info in form to our database;action creates the path to follow to get create user -->
@@ -25,3 +25,4 @@
 		<button type="submit" class="btn btn-success">Submit</button>
 	</div>
 </form>
+</div>
