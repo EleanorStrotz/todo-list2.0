@@ -3,22 +3,23 @@
 body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
-	background-image: url("https://download.unsplash.com/photo-1428908799722-0a74e26ce7f6");
+	background-image: url("http://static.tumblr.com/e4f73c7ac808921d4cdf8f71647a7e84/eom08wy/zc5n94f5n/tumblr_static_9qbq8jitqhogkcgocooksg0sk.jpg");
 	/*background-size: 100%;*/
 	/*background-repeat: no-repeat;*/
 	background-attachment: fixed;
     background-position: center; 
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 
 }
 .container{
 	width: 900px;
-	height: 600px;
+	height: 500px;
 	margin-top: 40px;
 	background: #f1f1f1;
 	text-align: center;
 	padding-top: 30px;
-	opacity: 0.4;
+	opacity: 0.7;
+	margin-left: 200px;
 }
 
 #login{

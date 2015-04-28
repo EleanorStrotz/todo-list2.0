@@ -3,9 +3,12 @@
 body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
-	background-image: url("https://download.unsplash.com/photo-1429817995631-19962bb39ef6");
+	background-image: url("http://thisisblueprint.com/wp-content/uploads/2014/07/31411/Yung-Lean.jpg");
 	/*background-size: 100%;*/
 	/*background-repeat: no-repeat;*/
+	background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .container{

@@ -3,9 +3,12 @@
 body{
 	font: normal 14px 'Open Sans', Arial, sans-serif;
 	color: #999;
-	background-image: url("https://download.unsplash.com/photo-1429902926379-7cfd3d9cafda");
+	background-image: url("http://antennamag.com/files/2014/09/yung-lean.jpg?w=600&h=0&zc=1&s=0&a=t&q=89");
 	/*background-size: 100%;*/
 	/*background-repeat: no-repeat;*/
+	background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .container{
