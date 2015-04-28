@@ -25,4 +25,7 @@
 		<button type="submit" class="btn btn-success">Submit</button>
 	</div>
 </form>
+<p>
+	go to <a href="login.php">Login</a> or <a href="index.php">home</a>
+</p>
 </div>
